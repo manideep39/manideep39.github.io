@@ -1,18 +1,9 @@
 
 #page1 {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
-}
-
-.yellowColor {
-    color: #FECD55;
-}
-
-.yellowBackground {
-    background-color: #FECD55;
 }
 
 .avatar {
@@ -20,20 +11,21 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    
-}
-
-.avatar-img {
-    border: 10px solid #FECD55;
-    border-radius: 100%;
-    box-shadow: 1px 1px 10px #A8A8A8;
+    margin-top: 30px;
 }
 
 .avatar-dot {
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
+    display: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 60% 0% 60% 0%;
+    background-color: green;
+}
+
+.avatar-img {
+    border-radius: 30% 0% 30% 0%;
     box-shadow: 1px 1px 10px #A8A8A8;
+    padding: 2px;
 }
 
 .name {
@@ -70,6 +62,11 @@
     color: #A8A8A8;
     font-size: 19px;
     margin: 5px 10px;
+    text-decoration: none;
+}
+
+.contact-icon {
+    /* color: green; */
 }
 
 .summary {
@@ -98,30 +95,41 @@
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
-    padding: 12px;
-    margin: 0px 30px;
-    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 0px 20px;
+    border-radius: 50% 0% 50% 0%;
     margin-top: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
     box-shadow: 1px 1px 10px #A8A8A8;
 }
 
+.tech-icon-tags {
+    text-align: center;
+    margin: 8px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #707070;
+}
+
 #page2 {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
 }
 
-#page2 > h1 {
+
+.title {
     text-align: center;
     color: #707070;
     font-family: open-sans, sans-serif;
     font-weight: bold;
     font-size: 38px;
-    margin-bottom: 50px;
+    margin: 80px 0px 30px 0px;
+
 }
 
 #page2 > div {
@@ -129,16 +137,24 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 0px;
 }
 
 .proficiencies {
-    text-align: center;
-    width: 220px;
-    margin:50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    margin:50px 15px;
+    height: 300px;
+    box-shadow: 1px 1px 10px #A8A8A8;
+    padding: 15px;
+    border-radius: 30%;
 }
 
 .proficiencies > img {
-    width: 150px;
+    width: 40%
 }
 
 .proficiencies > h2 {
@@ -153,12 +169,12 @@
     font-weight: normal;
     font-family: roboto, sans-serif;
     font-size: 16px;
+    text-align: center;
+    padding: 10px;
 }
 
 #page3 {
-    border: 1px solid black;
-    height: 100vh;
-    overflow-y: scroll;
+
 }
 
 
@@ -166,24 +182,30 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 100px 100px;
+    margin: 0px 100px;
     flex-wrap: wrap;
 }
 
 .card {
-    width: 350px;
-    /* border: 1px solid black; */
-    margin: 70px 20px;
+    width: 320px;
+    margin: 30px 20px;
+    padding: 10px;
+    border-radius: 15% 1% 40% 20%;
     box-shadow: 1px 1px 10px #A8A8A8;
+
 }
 
 .card > img {
-    width: 350px;
+    width: 320px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #A8A8A8;
 }
 
 .card > h2 {
     /* border: 1px solid black; */
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 0px 30px;
     font-size: 18px;
     font-family: open-sans, sans-serif;
@@ -202,12 +224,40 @@
 
 .card-icons {
     padding: 0px 30px;
-    margin: 50px 0px 30px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 .card-icons > img {
     width: 30px;
 }
 
+.card-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
+.card-button {
+    padding: 7px;
+    outline: none;
+    width: 120px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.github-button {
+    background-color: #f7f7f7;
+    color: #402f00;
+    font-weight: bold;
+    border: 1px solid #402f00;
+    cursor: pointer;
+}
+
+.live-button {
+    background-color: #e53f41;
+    color: #f7f6f6;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
 
