@@ -182,7 +182,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0px 100px;
+    margin: 0px 5%;
     flex-wrap: wrap;
 }
 
@@ -260,4 +260,83 @@
     border: 1px solid white;
     cursor: pointer;
 }
+
+#page4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+#badges {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px #A8A8A8;
+}
+
+#badges > div {
+    width: 180px;
+    height: 180px;
+    margin: 2%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px rgb(165, 165, 165);
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#badges > div > h1 {
+    /* border: 1px solid black; */
+    box-shadow: inset 3px 3px 3px rgb(165, 165, 165);
+    width: 125px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 90, 90);
+    font-size: 35px;
+    text-align: center;
+    font-family: font-family: open-sans, sans-serif;
+}
+
+#badges > div > h1+div {
+    /* border: 1px solid black; */
+    box-shadow: inset 3px 3px 3px rgb(165, 165, 165);
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 90, 90);
+}
+
+#badges > div > h1+div > h2 {
+    margin: 0px; 
+    font-size: 18px;
+    text-align: right;
+    width: 90px;
+    padding-right: 10px;
+    font-family: open-sans, sans-serif;
+}
+
+#badges > div > h1+div > p {
+    margin: 0px; 
+    text-align: right;
+    width: 80px;
+    font-family: open-sans, sans-serif;
+}
+
+
 
