@@ -265,6 +265,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
     /* border: 1px solid red; */
 }
 
@@ -278,6 +279,7 @@
     border-radius: 20px;
     flex-wrap: wrap;
     box-shadow: 1px 1px 10px #A8A8A8;
+    margin-top: 50px;
 }
 
 #badges > div {
@@ -307,6 +309,7 @@
     text-align: center;
     font-family: font-family: open-sans, sans-serif;
 }
+
 
 #badges > div > h1+div {
     /* border: 1px solid black; */
@@ -338,5 +341,50 @@
     font-family: open-sans, sans-serif;
 }
 
+.git-commit-cont {
+    margin-top: 150px;
+    border-radius: 30px;
+    width: 700px;
+    height: 170px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    box-shadow: inset 1px 1px 7px rgb(165, 165, 165);
+    background-color: rgb(243, 243, 243);
+}
 
+.git-commit-cont > img {
+    width: 700px;
+    border-radius: 20px;
+}
 
+.git-commit-cont > h1 {
+    margin:0px;
+    text-align: center;
+    color: rgb(90, 90, 90);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: open-sans, sans-serif;
+}
+
+.git-commit-cont > h1 > span:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.git-commit-cont > h1 > span:nth-child(2) {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.commit-wrapper {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 5px solid #707070;
+    border-left: 5px solid #707070;
+    border-bottom: 5px solid #707070;
+    border-radius: 0% 0% 20px 20px;
+}
