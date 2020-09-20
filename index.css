@@ -194,7 +194,7 @@
     padding: 15px;
     border-radius: 15% 15% 40% 20%;
     box-shadow: 1px 1px 10px #a8a8a8;
-    height: 390px;
+    height: 400px;
     background-color: rgb(247, 234, 218);
 }
 
@@ -213,6 +213,7 @@
 
 .card > img {
     width: 320px;
+    height: 180px;
     margin-top: 10px;
     /* border: 1px solid black; */
     border-radius: 10px;
