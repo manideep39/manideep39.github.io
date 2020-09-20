@@ -1,4 +1,5 @@
 
+
 #page1 {
     /* height: 100vh; */
     display: flex;
@@ -24,7 +25,7 @@
 .avatar-img {
     border-radius: 100%;
     box-shadow: 1px 1px 10px #A8A8A8;
-    border-radius: 30% 0% 40% 0%;
+    border-radius: 30% 0% 30% 30%;
     padding: 2px;
 }
 
@@ -104,7 +105,7 @@
     background-color: green;
     color: white;
     text-align: center;
-    box-shadow: 1px 1px 10px #A8A8A8;
+    box-shadow: 1px 1px 10px #a8a8a8;
 }
 
 .tech-icon-tags {
@@ -121,7 +122,6 @@
     justify-content: center;
 }
 
-
 .title {
     text-align: center;
     color: #707070;
@@ -129,7 +129,6 @@
     font-weight: bold;
     font-size: 38px;
     margin: 80px 0px 30px 0px;
-
 }
 
 #page2 > div {
@@ -148,10 +147,13 @@
     width: 250px;
     margin:50px 15px;
     height: 300px;
-    box-shadow: 1px 1px 10px #A8A8A8;
     padding: 15px;
     border-radius: 30%;
+    box-shadow: inset 1px 1px 10px rgb(153, 149, 216);
+
 }
+
+
 
 .proficiencies > img {
     width: 40%
@@ -190,9 +192,23 @@
     width: 320px;
     margin: 30px 20px;
     padding: 15px;
-    border-radius: 15% 1% 40% 20%;
-    box-shadow: 1px 1px 10px #A8A8A8;
+    border-radius: 15% 15% 40% 20%;
+    box-shadow: 1px 1px 10px #a8a8a8;
+    height: 390px;
+    background-color: rgb(247, 234, 218);
+}
 
+.card-title {
+    color: #707070;
+    font-weight: bold;
+    font-family: open-sans, sans-serif;
+    font-size: 21px;
+    margin: 0px;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 10px #dbac8d;
+    background-color: rgb(255, 255, 255);
 }
 
 .card > img {
@@ -234,7 +250,8 @@
 .card-button-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+    height: 30px;
 }
 
 .card-button {
@@ -266,8 +283,8 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    /* border: 1px solid red; */
 }
+
 
 #badges {
     display: flex;
@@ -278,9 +295,12 @@
     width: 80%;
     border-radius: 20px;
     flex-wrap: wrap;
-    box-shadow: 1px 1px 10px #A8A8A8;
     margin-top: 50px;
+    box-shadow: inset 1px 1px 10px rgb(141, 141, 141);
+    background-color: rgb(211, 226, 204)
 }
+
+
 
 #badges > div {
     width: 180px;
@@ -292,6 +312,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(rgb(115, 170, 113), rgb(211, 226, 204));
 }
 
 #badges > div > h1 {
@@ -348,8 +369,8 @@
     height: 170px;
     /* border: 1px solid black; */
     padding: 20px;
-    box-shadow: inset 1px 1px 7px rgb(165, 165, 165);
-    background-color: rgb(243, 243, 243);
+    box-shadow: inset 1px 1px 7px rgb(122, 122, 122);
+    background-color: rgb(211, 226, 204);
 }
 
 .git-commit-cont > img {
@@ -387,4 +408,5 @@
     border-left: 5px solid #707070;
     border-bottom: 5px solid #707070;
     border-radius: 0% 0% 20px 20px;
+    border-color: rgb(115, 170, 113);
 }
